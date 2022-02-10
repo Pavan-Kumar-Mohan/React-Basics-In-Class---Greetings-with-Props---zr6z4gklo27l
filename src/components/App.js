@@ -1,12 +1,10 @@
 import React from "react";
-import '../styles/App.css';
-import Welcome from './Welcome';
+import "../styles/App.css";
+import Welcome from "./Welcome";
 
 const App = () => {
-  return (
-    <Welcome name="Pavan Kumar Mohan" />
-  )
-}
-
+  let name = "Pavan Kumar Mohan";
+  return <Welcome name={name} />;
+};
 
 export default App;
